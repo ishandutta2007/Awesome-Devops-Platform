@@ -1,40 +1,42 @@
-# Awesome DevOps Platforms & Software Delivery Tools (2026)
+![Awesome DevOps Platforms Banner](assets/banner.svg)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![DevOps Ecosystem](https://img.shields.io/badge/DevOps-Ecosystem-blue.svg)](https://github.com/ishandutta2007/Awesome-Devops-Platform)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Devops-Platform/blob/main/README.md)
+# 🚀 Awesome DevOps Platforms & Software Delivery Tools (2026)
 
-A curated list of enterprise **SaaS DevOps Platforms** and high-impact **Open-Source CI/CD & GitOps Projects**. This resource helps platform engineers, SREs, and engineering leaders evaluate software delivery infrastructure, release automation systems, continuous integration (CI) pipelines, continuous deployment (CD) solutions, and developer self-service platforms.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a> <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) [![DevOps Ecosystem](https://img.shields.io/badge/DevOps-Ecosystem-blue.svg)](https://github.com/ishandutta2007/Awesome-Devops-Platform) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Devops-Platform/blob/main/README.md) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
----
-
-## Table of Contents
-
-- [Market Size & Sector Dynamics](#market-size--sector-dynamics)
-- [SaaS & Commercial DevOps Platforms](#saas--commercial-devops-platforms)
-- [Open-Source CI/CD & GitOps Projects](#open-source-cicd--gitops-projects)
-- [DevOps Architecture Selection Guide](#devops-architecture-selection-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Security Best Practices](#disclaimer--security-best-practices)
+A curated collection of enterprise **SaaS DevOps Platforms** and high-impact **Open-Source CI/CD & GitOps Projects** 🛠️. This resource empowers platform engineers, SREs, developers, and technology leaders to evaluate software delivery infrastructure, release automation systems, continuous integration (CI) pipelines, continuous deployment (CD) solutions, and developer self-service platforms.
 
 ---
 
-## Market Size & Sector Dynamics
+## 📑 Table of Contents
 
-> **Market Overview**: The global **DevOps & Software Delivery Platform market size is estimated at ~$11.5 Billion in 2026** (projected to exceed **$25.5 Billion by 2030 at a 19.5% CAGR**). The sector is **moderately to highly fragmented**, characterized by mega-scale cloud vendors (Microsoft/GitHub, GitLab) dominating integrated developer platform market share, alongside specialized continuous delivery, release orchestration, and GitOps engines (Harness, CircleCI, Octopus Deploy, Argo CD) serving mission-critical enterprise workflows.
+- [📊 Market Size & Sector Dynamics](#-market-size--sector-dynamics)
+- [💼 SaaS & Commercial DevOps Platforms](#-saas--commercial-devops-platforms)
+- [🔓 Open-Source CI/CD & GitOps Projects](#-open-source-cicd--gitops-projects)
+- [🛠️ DevOps Architecture Selection Guide](#️-devops-architecture-selection-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer & Security Best Practices](#️-disclaimer--security-best-practices)
+- [📈 Star History](#-star-history)
 
 ---
 
-## SaaS & Commercial DevOps Platforms
+## 📊 Market Size & Sector Dynamics
 
-The following commercial software delivery platforms offer managed infrastructure, compliance suites, end-to-end security scanning, and managed pipeline scale.
+> 💡 **Market Overview**: The global **DevOps & Software Delivery Platform market size is estimated at ~$11.5 Billion in 2026** (projected to exceed **$25.5 Billion by 2030 at a 19.5% CAGR**). The sector is **moderately to highly fragmented**, characterized by mega-scale cloud vendors (Microsoft/GitHub, GitLab) dominating integrated developer platform market share, alongside specialized continuous delivery, release orchestration, and GitOps engines (Harness, CircleCI, Octopus Deploy, Argo CD) serving mission-critical enterprise workflows.
+
+---
+
+## 💼 SaaS & Commercial DevOps Platforms
+
+The following commercial software delivery platforms offer managed infrastructure, compliance suites, end-to-end security scanning, and managed pipeline scale ☁️.
 
 *Table sorted by **Company Size / Valuation** (descending).*
 
-| Product / Platform | Company Size (Valuation / Revenue) | Starting Paid Price | Free Tier & Free Trial Limits | Key Capabilities & Use Cases |
+| Product / Platform | Company Size (Valuation / Revenue) 🌐 | Starting Paid Price 💳 | Free Tier & Free Trial Limits 🎁 | Key Capabilities & Use Cases ⚡ |
 | :--- | :--- | :--- | :--- | :--- |
 | **[GitHub Enterprise](https://github.com/enterprise)** | **~$3.1 Trillion Market Cap** (Microsoft Parent) / **$1.5B+ ARR** | **$4 / user / month** (Team); **$21 / user / month** (Enterprise) | **Unlimited** public/private repos, **2,000 CI/CD minutes/mo**, 500 MB package storage | Integrated SCM, GitHub Actions CI/CD, Enterprise SAML/SSO, Dependabot, and Copilot AI ecosystem. |
-| **[Azure DevOps](https://azure.microsoft.com/services/devops/)** | **~$3.1 Trillion Market Cap** (Microsoft Parent) / **$35B+ Cloud Division** | **$6 / user / month** (Basic access beyond 5 users); **$40 / mo** per extra parallel job | **5 free users**, **1,800 free MS-hosted build mins/mo**, 1 free self-hosted job, 2 GB Artifacts | Full enterprise ALMsuite including Azure Repos, Azure Pipelines, Azure Boards, and Artifact registry. |
+| **[Azure DevOps](https://azure.microsoft.com/services/devops/)** | **~$3.1 Trillion Market Cap** (Microsoft Parent) / **$35B+ Cloud Division** | **$6 / user / month** (Basic access beyond 5 users); **$40 / mo** per extra parallel job | **5 free users**, **1,800 free MS-hosted build mins/mo**, 1 free self-hosted job, 2 GB Artifacts | Full enterprise ALM suite including Azure Repos, Azure Pipelines, Azure Boards, and Artifact registry. |
 | **[GitLab](https://about.gitlab.com/)** | **~$8.5 Billion Market Cap** (NASDAQ: GTLB) / **$650M+ ARR** | **$29 / user / month** (Premium Plan) | **5 users** per namespace, **400 compute mins/mo**, 10 GB storage | Complete single-application DevOps platform spanning SCM, CI/CD, security scanning (SAST/DAST), and compliance. |
 | **[Harness](https://harness.io/)** | **~$3.7 Billion Valuation** / **$100M+ ARR** | **$100 / developer / month** (Harness CI Cloud base tier) | **1,000 Harness Units (HSUs)/mo**, **2,000 cloud credits/mo**, 10 GB repo storage, 50 GB transfer | AI-driven continuous delivery, feature flags, cloud cost management (CCM), and service reliability governance. |
 | **[CircleCI](https://circleci.com/)** | **~$1.7 Billion Valuation** / **$100M ARR** | **$15 / month** (Performance plan, includes 5 seats & 30,000 credits) | **30,000 credits/mo** (~3,000 Linux build mins), **up to 5 active users** (400k credits/mo for open source) | High-concurrency Docker & cloud-native pipeline automation with extensive orb ecosystem and resource class options. |
@@ -46,13 +48,13 @@ The following commercial software delivery platforms offer managed infrastructur
 
 ---
 
-## Open-Source CI/CD & GitOps Projects
+## 🔓 Open-Source CI/CD & GitOps Projects
 
-Open-source solutions power the foundation of modern infrastructure engineering and cloud-native software deployment pipelines.
+Open-source solutions power the foundation of modern infrastructure engineering and cloud-native software deployment pipelines 🔓.
 
 *Table sorted by **GitHub Stars** (descending).*
 
-| Project & Repository | GitHub Star Count | Category & Architecture | Summary & Features |
+| Project & Repository 📦 | GitHub Star Count ⭐ | Category & Architecture 🏗️ | Summary & Features 📝 |
 | :--- | :--- | :--- | :--- |
 | **[nektos/act](https://github.com/nektos/act)** | [![GitHub stars](https://img.shields.io/github/stars/nektos/act?style=social&color=white)](https://github.com/nektos/act/stargazers) | Developer Tooling / Local CI | Run GitHub Actions workflows locally inside Docker containers for rapid testing and fast feedback loops. |
 | **[go-gitea/gitea](https://github.com/go-gitea/gitea)** | [![GitHub stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) | Self-Hosted Git Platform | Lightweight, painless self-hosted Git service written in Go with built-in Gitea Actions CI engine. |
@@ -70,35 +72,56 @@ Open-source solutions power the foundation of modern infrastructure engineering 
 
 ---
 
-## DevOps Architecture Selection Guide
+## 🛠️ DevOps Architecture Selection Guide
 
-When deciding between commercial SaaS and self-hosted open-source software delivery stacks, evaluate the following platform trade-offs:
+When deciding between commercial SaaS and self-hosted open-source software delivery stacks, evaluate the following platform trade-offs ⚖️:
 
-1. **Integrated All-in-One vs. Modular Best-of-Breed**:
+1. **Integrated All-in-One vs. Modular Best-of-Breed** 🧩:
    - **Integrated (GitHub / GitLab / Azure DevOps)**: Reduces administrative overhead and unifies user permissions, audit logs, issue tracking, and CI/CD pipelines in a single product surface.
    - **Modular (Gitea + Tekton / Argo CD / Dagger)**: Grants maximum sovereignty, cloud-native scalability, and customization, but requires internal platform teams to manage updates, security hardening, and high availability.
 
-2. **Compliance & Supply Chain Hardening**:
+2. **Compliance & Supply Chain Hardening** 🛡️:
    - Software delivery pipelines are high-value targets for software supply-chain attacks. Ensure secure secret management (HashiCorp Vault, AWS Secrets Manager), signed build artifacts (Sigstore/Cosign), and least-privilege runner permissions across all build agents.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-Contributions are welcome! Follow these steps to submit additions or updates:
+Contributions are warmly welcomed! 🌟 Follow these steps to submit additions or updates:
 
-1. Fork the repository.
-2. Update entry details in `README.md` maintaining accurate formatting and factual product details.
-3. For open-source additions, include the GitHub owner/repo slug to render star badges correctly.
-4. Open a Pull Request with a clear explanation of your changes.
-
----
-
-## Disclaimer & Security Best Practices
-
-- This list is **community-curated** for informational and educational purposes.
-- Always perform vendor security assessments and threat modeling prior to hosting sensitive API keys or production deployment credentials within CI/CD runner environments.
+1. 🍴 Fork the repository.
+2. 📝 Update entry details in `README.md` maintaining accurate formatting and factual product details.
+3. ⭐ For open-source additions, include the GitHub owner/repo slug to render star badges correctly.
+4. 🔀 Open a Pull Request with a clear explanation of your changes.
 
 ---
 
-**Crafted for platform engineers, SREs, and DevOps professionals shipping continuously.**
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome DevOps Platforms**! 🌟
+
+If this project has helped you evaluate software delivery infrastructure, saved you time, or inspired your platform architecture, please consider supporting the project:
+
+- 🌟 **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork the repo** and submit pull requests with new software delivery tools.
+- 📢 **Share this list** with your colleagues, DevOps teams, and platform engineering communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and curated updates, consider sponsoring on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)!
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-%23ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Sponsor on GitHub" /></a>
+
+---
+
+## ⚠️ Disclaimer & Security Best Practices
+
+- 📌 This list is **community-curated** for informational and educational purposes.
+- 🔒 Always perform vendor security assessments and threat modeling prior to hosting sensitive API keys or production deployment credentials within CI/CD runner environments.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Devops-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Devops-Platform&type=date&legend=top-left)
+
+---
+
+**Crafted with ❤️ for platform engineers, SREs, and DevOps professionals shipping continuously.**
